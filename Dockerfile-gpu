@@ -1,0 +1,17 @@
+FROM kaldiasr/kaldi:gpu-2020-02
+
+RUN git clone --recurse-submodules https://github.com/Voice-Privacy-Challenge/Voice-Privacy-Challenge-2020.git
+WORKDIR Voice-Privacy-Challenge-2020
+
+
+RUN apt-get -y update
+RUN apt-get -y install cmake
+RUN apt-get -y install python3 python3-pip
+RUN pip3 install --upgrade pip
+RUN pip3 install scipy sklearn numpy pandas
+RUN ./install.sh
+RUN apt-get -y install openssh-server
+
+COPY Experiment/* Experiment/
+
+CMD bash

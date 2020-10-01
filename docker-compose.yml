@@ -1,0 +1,16 @@
+version: '3'
+services:
+  kaldi:
+    container_name: DistPrevXvecs
+    build:
+      context: .
+      dockerfile: Dockerfile-gpu
+    tty: true
+    stdin_open: true
+    # N.B you may want to volume mount some directories 
+    # e.g /opt/kaldi/Voice-Privacy-Challenge-2020/data
+    # /opt/kaldi/Voice-Privacy-Challenge-2020/exp 
+    # to ensure that data is kept even if something happens to the docker containers
+    # This can also allow you to copy the data folders in from external locations
+    # Finally you may wish to volume mount VoxCeleb1 and VoxCeleb2 into 
+    # /opt/kaldi/Voice-Privacy-Challenge-2020/corpora if you have them externally downloaded
