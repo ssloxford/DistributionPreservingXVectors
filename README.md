@@ -9,7 +9,7 @@ The idea for our challenge entry began by examining the similarity distributions
 <p align="center"><img src="/github_images/baseline_comparison.png" width="50%"></p>
 
 We examined this further with a t-SNE analysis, conducted on a set comprised of half anonymized x-vectors and half organic x-vectors. This t-SNE analysis, shown below, clearly highlights the differences that exist between the two types of x-vectors, with the fake ones being more similar to one another and less diverse than organic x-vectors.
-<p align="center"><img src="/github_images/TSNEMales.png" width="50%"></p>
+<p align="center"><img src="/github_images/TSNEMales.png" width="20%"></p>
 
 We set outside to remedy this, by developing a technique to generate psuedo-xvectors that better utilize the x-vector hyperspace, thus creating more diverse x-vectors and as a result voices anonymized voices that are more distinct from another.
 
