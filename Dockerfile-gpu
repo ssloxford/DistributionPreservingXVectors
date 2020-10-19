@@ -13,6 +13,8 @@ RUN sed -i 's/Miniconda3-latest-Linux-x86_64/Miniconda3-py37_4.8.2-Linux-x86_64/
 RUN ./install.sh
 RUN apt-get -y install openssh-server
 
+RUN venv/bin/pip install scipy sklearn numpy pandas configargparse matplotlib
+
 COPY Experiment Experiment
 
 CMD bash
