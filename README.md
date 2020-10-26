@@ -1,6 +1,6 @@
 # Distribution Preserving X-Vectors for Speaker Anonymization
 ### An entry in the Voice Privacy Challenge 2020
-This repository contains the code for the paper [Speaker Anonymization with Distribution-Preserving X-Vector Generation for the Voice Privacy Challenge 2020](www.fixlink.com) presented at the [Voice Privacy Challenge Special Session at Interspeech 2020](https://www.voiceprivacychallenge.org/).
+This repository contains the code for the paper [Speaker Anonymization with Distribution-Preserving X-Vector Generation for the Voice Privacy Challenge 2020](https://www.voiceprivacychallenge.org/docs/Oxford.pdf) presented at the [Voice Privacy Challenge Special Session at Interspeech 2020](https://www.voiceprivacychallenge.org/).
 This work is a collaboration between [Henry Turner](https://www.cs.ox.ac.uk/people/henry.turner/) and [Giulio Lovisotto](https://github.com/giuliolovisotto/) from the [System Security Lab](https://seclab.cs.ox.ac.uk/) at University of Oxford.
 
 
@@ -25,10 +25,10 @@ Please see our paper [here for further details](www.arxivlinkhere)
 
 <!-- <p align="center"><img src="/github_images/transferability.png" width="80%"></p> -->
 
-<!-- ### Resources
-Add paper, videos when available
-) -->
-
+## Resources
+ :page_facing_up: - [Voice Privacy Challenge System Description](https://www.voiceprivacychallenge.org/docs/Oxford.pdf)<br>
+<!--- :page_facing_up: - [ArXiV verison](www.fixme.com)<br> -->
+ :movie_camera: - [Voice Privacy Challenge Presentation](https://www.youtube.com/watch?v=ejuJLH6bcbM)
 <!-- ## Citation
 If you use this repository please cite the paper as follows:
 ```
