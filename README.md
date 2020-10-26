@@ -35,8 +35,8 @@ If you use this repository please cite the paper as follows:
 TODO citation here
 ``` -->
 ## Contributors
- * [Giulio Lovisotto](https://github.com/giuliolovisotto/)
  * [Henry Turner](https://www.cs.ox.ac.uk/people/henry.turner/)
+ * [Giulio Lovisotto](https://github.com/giuliolovisotto/)
 
 ## Acknowledgements
 
