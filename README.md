@@ -20,7 +20,7 @@ We can then apply the inverse of the PCA transformation, which transforms the x-
 We then use the same voice processing pipeline as the baseline solution to generate an anonymized voices, which replaces the speakers x-vector with the newly created anonymized x-vector, as shown in the diagram below.
 <p align="center"><img src="/github_images/sys_diag.png" width="70%"></p>
 
-Please see our paper [here for further details](www.arxivlinkhere)
+Please see our paper [here for further details](https://arxiv.org/abs/2010.13457)
 
 
 
@@ -29,7 +29,7 @@ Please see our paper [here for further details](www.arxivlinkhere)
 
 ## Resources
  :page_facing_up: - [Voice Privacy Challenge System Description](https://www.voiceprivacychallenge.org/docs/Oxford.pdf)<br>
-<!--- :page_facing_up: - [ArXiV verison](www.fixme.com)<br> -->
+ :page_facing_up: - [ArXiV verison](https://arxiv.org/abs/2010.13457)<br>
  :movie_camera: - [Voice Privacy Challenge Presentation](https://www.youtube.com/watch?v=ejuJLH6bcbM)
 <!-- ## Citation
 If you use this repository please cite the paper as follows:
