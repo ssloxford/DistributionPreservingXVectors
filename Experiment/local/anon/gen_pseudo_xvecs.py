@@ -38,6 +38,10 @@ def generate_xvector(transforms, original_xvector=None, distance_threshold=1.01,
     gmm = transforms['gmm']
     pca = transforms['pca']
     
+    if type(gmm.random_state) == int:
+        # make sure all samples are different if an int is set as random state
+        gmm.random_state = np.random.RandomState()
+    
     cosine_distance = np.inf
     min_cos_dist = np.inf
     smallest_xvec = None
